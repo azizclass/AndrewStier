@@ -1,0 +1,11 @@
+--- HelloWorld.java	Wed Sep 23 03:13:35 2015
++++ HelloWorldFrench.java	Wed Sep 23 03:14:51 2015
+@@ -1,7 +1,7 @@
+ 
+ public class HelloWorld {
+ 	public static void main( String [] args){
+-		System.out.println("Hello World!");
++		System.out.println("bonjour, Monde!");
+ 	}
+ 
+ }
