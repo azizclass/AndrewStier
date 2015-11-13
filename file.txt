@@ -1,0 +1,30 @@
+
+Name    Stmts   Miss  Cover   Missing
+-------------------------------------
+Traceback (most recent call last):
+  File "C:\Python27\lib\runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "C:\Python27\lib\runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "C:\Python27\Scripts\nosetests.exe\__main__.py", line 9, in <module>
+  File "C:\Python27\lib\site-packages\nose\core.py", line 121, in __init__
+    **extra_args)
+  File "C:\Python27\lib\unittest\main.py", line 95, in __init__
+    self.runTests()
+  File "C:\Python27\lib\site-packages\nose\core.py", line 207, in runTests
+    result = self.testRunner.run(self.test)
+  File "C:\Python27\lib\site-packages\nose\core.py", line 66, in run
+    result.printErrors()
+  File "C:\Python27\lib\site-packages\nose\result.py", line 110, in printErrors
+    self.config.plugins.report(self.stream)
+  File "C:\Python27\lib\site-packages\nose\plugins\manager.py", line 99, in __call__
+    return self.call(*arg, **kw)
+  File "C:\Python27\lib\site-packages\nose\plugins\manager.py", line 167, in simple
+    result = meth(*arg, **kw)
+  File "C:\Python27\lib\site-packages\nose\plugins\cover.py", line 190, in report
+    self.coverInstance.report(modules, file=stream)
+  File "C:\Python27\lib\site-packages\coverage\control.py", line 966, in report
+    return reporter.report(morfs, outfile=file)
+  File "C:\Python27\lib\site-packages\coverage\summary.py", line 116, in report
+    raise CoverageException("No data to report.")
+coverage.misc.CoverageException: No data to report.
