@@ -1,0 +1,16 @@
+.....F
+======================================================================
+FAIL: test_t6 (Test.MyTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Andrew\PycharmProjects\Andrew's Repo\lab3\Test.py", line 28, in test_t6
+    self.assertEqual(r1, -1)
+AssertionError: 0 != -1
+
+Name            Stmts   Miss  Cover   Missing
+---------------------------------------------
+Experiment.py      10      2    80%   5, 12
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+FAILED (failures=1)
